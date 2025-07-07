@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>e-atrika</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #0074D9, #2ECC40);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 2rem;
+    }
+    h2 {
+      color: #0074D9;
+      margin-top: 2rem;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 1rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      padding: 0.7rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #2ECC40;
+      color: white;
+      padding: 0.7rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #28b037;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #e0e0e0;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>e-atrika</h1>
+    <p>Ιατρικά Αναλώσιμα - Απολυμαντικά - Απορρυπαντικά - Προϊόντα Ομορφιάς</p>
+  </header>
+
+  <section>
+    <h2>Σχετικά με εμάς</h2>
+    <p>Η e-atrika δραστηριοποιείται στον χώρο των ιατρικών αναλώσιμων, απολυμαντικών, απορρυπαντικών και προϊόντων ομορφιάς. Στόχος μας είναι η ποιοτική εξυπηρέτηση και η άμεση κάλυψη των αναγκών των πελατών μας.</p>
+
+    <h2>Τοποθεσία</h2>
+    <p><strong>Διεύθυνση:</strong><br>Ράμμου 2, Καλαμπάκα, ΤΚ 42200</p>
+    <iframe src="https://www.google.com/maps?q=Ράμμου+2,+Καλαμπάκα&output=embed"></iframe>
+
+    <h2>Φόρμα Επικοινωνίας</h2>
+    <form action="mailto:example@example.com" method="post" enctype="text/plain">
+      <input type="text" name="Όνομα" placeholder="Το όνομά σας" required />
+      <input type="email" name="Email" placeholder="Το email σας" required />
+      <textarea name="Μήνυμα" rows="5" placeholder="Το μήνυμά σας..." required></textarea>
+      <button type="submit">Αποστολή</button>
+    </form>
+
+    <p style="margin-top: 2rem;"><strong>Τηλέφωνο:</strong> —</p>
+    <p><strong>Email:</strong> —</p>
+  </section>
+
+  <footer>
+    &copy; 2025 e-atrika. Με επιφύλαξη κάθε δικαιώματος.
+  </footer>
+
+</body>
+</html>
